@@ -1,0 +1,24 @@
+1 entender a cultura da empresa
+    - 
+
+2 leventar os processos
+    - entender o processo para o desenvolvimento
+    - ter um processo 
+    - quais os metodos utilizados (scrum)
+    - organizar o diagrama do processo
+
+3 experimentar pequenas mudanças
+    - faça prova de conceitos (poc)
+    - sugira coisas novas em pequenos projetos
+
+4 contratar pessoas
+    - 
+
+5 definir metricas
+    - definir indicaroes
+        - pontos de funcao
+        - quantos bugs foram arrumados
+        - numero de bugs encontrados
+
+6 humildade
+    - nada de orgulho

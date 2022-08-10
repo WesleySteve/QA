@@ -1,0 +1,189 @@
+agenda
+
+- para refletir:
+    - descobrir o inesperado é mais importante do que confirmar o ja conhecido
+        - testar caminho feliz
+        - testar caminho alternativos
+            - descobrir o inesperado
+
+
+por que devemos nos preocupar com teste de software
+
+********************************************************
+- prevenção de bugs
+    - doq encontrar bugs
+    - teste automatizados ajudam na prevenção
+
+-  suporte ao time
+    - garante uma certa segurança em caso quebrar o codigo tenho um feedback rapido
+
+- feedback constante
+    - totalmente relacionado com o suporte ao time
+
+- produtividade
+    - ajuda a aumentar a produtividade
+    - por ter testes automatizados rodando sempre
+
+
+******************************************************************
+
+- diminuição de custos
+    - ajuda a diminuir os custos se for encontrado rapido um problema
+
+
+- documentação viva
+    - bdd
+
+
+- alinhamento com o negócio
+    - bdd 
+    - se comporta com base no negocio
+
+- dissiminação do conhecimento
+    - pode ler os testes automatizados fazendo pull da aplicação localmente assim ajudando a entender como o software se comporta de uma forma mais facil e rapida
+
+___________________________________________________________________
+
+
+- testes manuais versus teste automatizados
+    - testes manuais podem ser mais caros que os automatizados
+    - se comparar o custo e tempo de execução dos testes
+
+- testes manuais
+    - cansativos
+    - sujeitos a erros humanos
+    - não previsiveis
+    - demorados
+    - inviabilizam CI/CD
+    - sub-aproveitamento das pessoas
+
+- testes automatizados
+    - previsiveis
+    - rapidos
+    - podem ser paraleizados
+    - podem fazer parte do processo de CI/CD
+    - libera os profissionais para o trabalho criativos
+    - possibilitam a realização de testes impossiveis de serem executados por humanos (performance, carga, etc..)
+
+_________________________________________________________________________
+
+- a piramede dos teste e suas variações
+
+lento         UI         $$$ (caro)
+            SERVIÇO
+rapido      UNIDADE       ḉ (barato)
+
+ui => teste como o usuario utiliza a aplicação
+serviço => teste (integração) entre diversas unidades da aplicação
+    - integração com banco de dados
+    - integração de serviços externos
+    - não exigem browser (ui) para serem executados
+
+unidade => teste (unidade) => unidades (pequenos pedaços) isolados
+
+**********************************************************************
+
+filtro dos testes
+
+- piramede invertida
+    - onde o topo
+
+        infinito conjudo de possiveis bugs
+                         => qualquer bug pode cair aqui
+             unidades     
+    
+                        => somente testes não encontrados na camada de unidade caem aqui
+            integração
+
+                   => somente bugs que não foram encontrados nas camadas de unidade e integração caem aqui
+            UI
+
+                    => somete os bugs mais sutis são encontrados aqui
+           manual
+    somente erros funcionalmente indetectaveis vão para produção
+
+
+- sorvete dos testes (anti-padrão)
+
+            manual
+        --------------
+        --------------
+              UI
+
+            serviço
+
+            unidade
+
+- cupcake dos testes (anti-padrão)
+
+testadores manuais            manual
+                         -------------
+autmatizadores de UI           UI
+                            ----------
+desenvolvedores            serviços / unidade  
+
+_______________________________________________________
+
+- novo conceito sobre a piramede dos teste de UI
+
+                 UI
+
+               VISUAL
+
+               SERVIÇO
+
+               UNIDADE
+
+
+__________________________________________________________
+
+
+                     UI
+ 
+                   VISUAL
+
+
+regressão
+  visual 
+      => screenshot da tela 
+          - compara screenshots de telas passadas com a telas atuais
+
+
+são muito mais rapidos doq testes funconais e testes de aceitação
+
+________________________________________________________________
+
+- o quadrante dos testes
+
+4 perspectivas diferentes
+    - 1 foco na tecnologia versus foco no negocio
+    - 2 suporte ao desenvolvimento versus critica ao produto
+
+
+4 quadrantes dentro do quadrante geral
+    1 e 2 suporte ao desenvolvimento
+    ḉ
+    1 - foco na tecnologia 
+        - suporte ao desenvolvimento
+            - realizam testes a nivel de unidade
+            - realizam testes a nivel de componente
+    ḉ
+    2 - foco ao negocio
+        - testes funcionais
+        - wireframes
+        - simulações
+        - mix com automatizados e manuais
+    3 e 4 critica ao produto
+    $
+    3 - foco negocio (critica ao produto)
+        - testes aceitação
+        - testes de usabilidade
+        - testes exploratorios
+    $
+    4 - foco tecnologia ()
+        - testes de desempenho
+        - testes de carga
+        - testes de segurança
+
+
+

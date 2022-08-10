@@ -1,0 +1,19 @@
+ter a mentalidade de quem testa aplicação
+
+busque 3 principais coisas
+
+1 garantir espectativas do usuario estao sendo atendidas pelo aplicação entregue
+2 antecipar possiveis problemas antes do softawre chegar na mao do cliente
+3 conseguir passar para todo time que testes sao bons 
+
+para isso temos 2 abordagens
+
+1 sistematica
+    - existem tecnicas que são utilizadas para extratir quais são os teste baseando na funcionalidade que esta sendo construida
+
+2 impirica
+    - voce utiliza do conhecimento passado para conseguir testar no presente
+
+
+
+

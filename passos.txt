@@ -1,0 +1,14 @@
+passos deve seguir
+
+1 logica de programação
+2 aparenda uma lingaguem de programação (java/javascript/ruby/python)
+3 aprenda sobre a mentalidade do testador
+4 aprenda os procssos de desenvolvimento sob a ótica de testes (agil/cascata)
+5 aprenda técnicas de teste
+6 aprenda sobre gestão de defeitos/falha
+7 aprenda sobre automação de testes principalmente (Web) e automação de teste API
+
+
+
+
+

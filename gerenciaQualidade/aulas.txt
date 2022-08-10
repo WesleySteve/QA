@@ -1,0 +1,375 @@
+gerencia da qualidade
+
+video 1
+
+
+-----------------------------------------------------------
+------------------------------------------------------------
+
+video 2 visao geral
+
+
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 3
+
+modelo de qualidade
+
+norma ISO 25000
+
+
+a organização do norma é dividida em 5
+
+
+*****************************************
+1 requisitos de qualidade       25003x
+2 modelo de qualidade           25001x
+3 gerenciamento de qualidade    25000x
+4 medição da qualidade          25002x
+5 avaliação da qualidade        25004x
+********************************************
+
+*********************************************************
+inicial gerenciamento da qualidade
+ - defini os modelos, conceitos e termos comuns
+
+modelo de qualidade
+ - define os modelos de qualidade produto, em uso e dados
+    - possui 3 modelos de qualidade
+
+medição da qualidade
+ - define um modelo de referencia para medição e define métricas
+
+requisitos de qualidade
+ - ajuda a especificar requisitos de qualidade
+
+avaliação de qualidade
+ - define requisitos, recomendações e guias para avaliação
+
+*****************************************************************************
+
+///////////////////////////////////////////////////////////////////////////////
+
+modelo de qualidade
+
+- defindo de forma hierárquica
+
+  - caracteristicas
+  - subcaracteristicas
+  - propriedade de qualidade
+    - mensuravel
+    - exemplo
+       - linhas de codigo, precisao de um calculo, tempo de garantia, preço e etc
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+as caracteristicas / subcaracteristicas considera graus
+  - o grau em que algo é atendido
+  - propriendade define um valor
+
+____________________________________________
+
+modelo de qualidade é dividido em 3 visões
+
+qualidade do produto
+
+- ponto de vista do produto
+
+qualide de uso
+
+- representa o quanto o uso do software "cumpre às necessidades" e "atinge metas" de um usuario
+- depende de um "contexto de uso"
+- caracteristicas do usuario e da tarefa, hardware, ambiente de operação e ambiente social
+
+qualidade de dados (ISO 25012)
+
+
+__________________________________________________________________________________
+
+qualidade do produto (caracteristicas)
+
+- adequação funcional
+
+    - trata do quanto o produto prove funções que cumprem as necessidades especificadas pelos stakerouders
+
+
+- eficiencia de execução
+    - trata do desempenho relativo a quantidade de recursos 
+        - qtde
+            - memoria
+            - processador
+            - rede
+
+- compatibilidade
+    - trata o quanto o produto pode compartilhar informação e recursos com outros produtos
+        - coexistencia 
+            - trata de quanto o software consegue compartilhar o ambiente
+
+- usabilidade
+    - quanto é facil usar o produto
+        - aprensibilidade
+            - quanto é facil de aprender um determinado produto
+        - operacionalidade
+            - é dificil de aprender mas depois que aprende é facil de mexer
+
+
+- confiabilidade
+    - quanto o produto executa suas funções nas condições especificadas no tempo adequado
+
+
+- segurança (security)
+    - trata do quanto as informações são protegidas
+
+
+- manutenibilidade
+    - quanto é facil modificar o produto
+        - modificabilidade
+            - quanto a mudança em uma parte ira afetar uma outra parte
+                - exemplo de baixo grau de modificabilidade
+                    - um software que possui muito acoplamento de codigo
+
+
+- portabilidade
+    - quanto é facil colocar este produto em um outro ambiente 
+
+_________________________________________________________________________________
+
+qualidade em uso
+
+- impacto que o produto tem nos stakeholders
+    - atingir o objetivo
+
+- eficácia
+    - trata se os objetivos do usuario são atingidos de forma precisa e completa
+
+- eficiencia
+    - quanto ele consegue fazer rapido
+
+- satisfação
+    - quanto as necessidades sao satisfeitas quando ele usa o produto
+
+
+- ausencia de riscos
+    - quanto o produto mitiga potenciais riscos a integridade do usuario
+
+- cobertura do contexto
+    - quanto o produto pode ser usado em situações diferentes
+
+
+_________________________________________________________________________________________
+
+midição da qualidade
+
+    como definir os graus das subcaracteristicas
+
+- medir as propriedades
+    - métricas associadas
+    - ISO 25022 (em uso) e ISO 25023 (produto)
+- exemplo: apreensibilidade (usabilidade)
+    - tempo médio que o usuario leva para aprender a usar uma funcionalidade X
+    - porcentagem de tarefas que o usuario consegue encontrar ajuda
+
+______________________________________________________________________________________
+
+----------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+
+video 4
+
+processos
+
+qualidade de software
+
+- quais são as atividades de gestão da qualidade
+
+    - qual a relação delas com as atividadesde desenvolvimento
+
+
+    - quais são as atividades de desenvolvimento
+
+
+______________________________________________________________________________
+
+ISO 12207 (2017)
+
+- processos do ciclo de vida de um softawre
+
+******************************************************************************
+- define um quadro de referencia para os processos de software
+    - define a terminologia básica "comunicação"
+    - pode ser usado para definir os processos necessários
+        - para organização ou um projeto especifico
+        - adquirentes ou fornecedores 
+        - base para melhoria de processos
+
+*********************************************************************************
+
+- contextualiza software em um sistema
+    - existente ou em desenvolvimento
+
+- escopo
+    - sistema de software
+    - aquisição, fornecimento, desenvolvimento, operação, manutenção e descarte
+
+************************************************************************************    
+
+nomenclatura
+
+- processo
+    - conjunto de atividades inter-relacionadas ou interagindo que transformam entradas em saidas (ISO, 2017, p.6)
+
+- algumas caracteristicas:
+    - o processo deve ter um "objetivo"
+    - importancia do "valor" da saida para organização 
+    - um processo tem um "cliente"
+    - pode cruzar "fronteiras" organizacionais
+
+
+****************************************************************************************
+
+nomenclatura
+
+- estagio /fase
+    - periodo de tempo em que as atividades são realizadas
+
+- diciplina
+    - conjunto de atividades relacionadas
+
+- atividade e tarefa
+    - quebra as ativias em diversas tarefas menores
+
+
+- passos (procedimentos)
+    - procedimentos
+       - qual é a tecnologia utilizada    
+    - o que é necessario para o processo ser executado
+   
+- papel (responsaveis e participantes)
+    - pessoas que trabalham na execução do processo
+
+- recurso
+    - é algo que sera usado para executar o processo
+
+- artefato
+    - é algo gerado pelo processo
+
+***********************************************************************************
+
+A ISO 12207
+
+- define para cada processo
+    - proposito
+        - qual o objetivo do processo
+
+    - resultados (esperados)
+        - artefatos
+        - ideias
+
+    - atividades e tarefas
+        - 
+
+_________________________________________________________________________________________
+
+a norma define varios processos separados por grupos
+
+grupo1 : processos de acordo
+  - aquisicao ou fornecimento de software
+
+grupo2: processos organizacionais
+  - excenciais
+
+grupo3: gerencia tecnica
+  - gestão 
+
+grupo4: processos tecnicos
+  - definição e analise de requisitos
+  - projeto
+  - implementação
+  - teste
+  - implantação
+
+_____________________________________________________________________________________
+
+lista de processos de qualidade de softawre
+
+- gerencia da qualidade
+- medição
+- guarantia da qualidade
+- verificação
+- validação
+_____________________________________________________________________________________
+
+PAREI AQUI
+
+https://www.youtube.com/watch?v=TbIkCcxEld4&list=PLxI8Can9yAHcmjsfjFdo_xJ3xhLiczzLC&index=4
+
+--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+video 5
+
+
+
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 6
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 7
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 8
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 9
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 10
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 11
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 12
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 13
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+video 14
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
