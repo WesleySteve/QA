@@ -11,9 +11,17 @@
 []       - quais as fases do processo vamos atuar
 []    - quais as fases mais importante a gente precisa estar presente 
 
-[] - modelo de desenvolvimento que a empresa utiliza
-[]    - cascata
-[]    - agil
+
+[x] - modelo de desenvolvimento que as empresas utilizam
+
+https://fia.com.br/blog/desenvolvimento-agil/
+https://agilemanifesto.org/iso/ptbr/manifesto.html
+
+https://blog.cronapp.io/metodologias-ageis-de-desenvolvimento-de-software/
+
+[x]    - cascata
+[x]    - agil
+
 
 [] - tecnicas de teste
 []    - quais das tecnias 
