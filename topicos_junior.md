@@ -34,6 +34,9 @@ https://blog.cronapp.io/metodologias-ageis-de-desenvolvimento-de-software/
 [] - niveis de teste
 []     - unidade
 []     - regressão
+            - nesse teste coloque os testes das partes mais criticas do sistema
+              - por exemplo: (pagamento)
+                - testes que são extremamente importante pro negocio
 []     - componente
 
    
